@@ -1,0 +1,5 @@
+{
+  "KeyValues": {
+    "Highscore": 0
+  }
+}
