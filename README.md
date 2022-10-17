@@ -7,7 +7,7 @@
 - *Comes with a Demo Scene☕ for guide.* 
 
 ## Installation:
-- Download [this package](), drag and drop the <b>.unitypackage</b> file inside Unity Editor to unpack(recommended) *or*
+- Download [this package](https://github.com/ebukaracer/Major_Packages/releases/download/sm.v1.0.0/Save.Manager.unitypackage), drag and drop the <b>.unitypackage</b> file inside Unity Editor to unpack(recommended) *or*
 - Clone this repo, drag and drop the **Save Manager** folder inside Unity Editor.
 
 ## Notes:
