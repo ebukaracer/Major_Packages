@@ -6,6 +6,8 @@
  
 ⚠ *Note that the available packages here are not officially supported or endorsed by Unity, Use at your own risk.*
 
+📌 See the [Setup Guide](https://github.com/ebukaracer/Major_Packages/blob/main/SETUPGUIDE.md), for a detailed guide on how to setup any of the packages in your project.
+
 ## Available Packages:
 | Packages           | Downloads|
 |--------------------|--------------------|
