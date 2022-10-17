@@ -11,9 +11,12 @@
 ## Available Packages:
 | Packages           | Downloads|
 |--------------------|--------------------|
-| [Save Manager](https://github.com/ebukaracer/Major_Packages/tree/pkg-Save_Manager)       |[![Download](https://img.shields.io/badge/-Download-blue?style=flat-square&labelColor=blue&logo=AddThis&logoColor=white)]()| 
-| [Save System](https://github.com/ebukaracer/Major_Packages/tree/pkg-Save_System)       |[![Download](https://img.shields.io/badge/-Download-blue?style=flat-square&labelColor=blue&logo=AddThis&logoColor=white)]()| 
-
+| [Save Manager](https://github.com/ebukaracer/Major_Packages/tree/pkg-Save_Manager)       |[![Download](https://img.shields.io/badge/-Download-blue?style=flat-square&labelColor=blue&logo=AddThis&logoColor=white)](https://github.com/ebukaracer/Major_Packages/releases/download/sm.v1.0.0/Save.Manager.unitypackage)| 
+| [Save System](https://github.com/ebukaracer/Major_Packages/tree/pkg-Save_System)       |[![Download](https://img.shields.io/badge/-Download-blue?style=flat-square&labelColor=blue&logo=AddThis&logoColor=white)](https://github.com/ebukaracer/Major_Packages/releases/download/ss.v1.0.0/Save.System.unitypackage)| 
+| [Sound Manager]()       |`not available yet`| 
+| [Object Pooling]()       |`not available yet`| 
+| [Scene Loader]()       |`not available yet`| 
+| [Utilities]()       |`not available yet`| 
 
 
 ## Notes:
