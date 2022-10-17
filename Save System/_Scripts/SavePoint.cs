@@ -15,18 +15,43 @@ namespace Racer.SaveSystem
     /// persisted across scenes.
     /// </remarks>
 
-    [DefaultExecutionOrder(-100), AddComponentMenu("SaveSystem/SavePoint")]
+    [DefaultExecutionOrder(-500), AddComponentMenu("SaveSystem/SavePoint")]
     public class SavePoint : MonoBehaviour
     {
+        public static SavePoint Instance { get; private set; }
+
         /// <summary>
         /// Loads all saved-in data when game is loaded.
         /// </summary>
         private void Awake()
         {
+            #region Singleton.Persistence
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+                return;
+            }
+            #endregion
+
             SaveSystem.Load();
 
-            // Comment out
+            // Comment out, if not already...
             // Logging.Log($"{nameof(SavePoint)} Initialized!");
+        }
+
+
+        /// <summary>
+        /// Saves all values manually at the point of calling.
+        /// Saving is performed anytime this function is called.
+        /// </summary>
+        public void SaveAll()
+        {
+            SaveSystem.Save();
         }
 
 #if !UNITY_EDITOR
@@ -43,9 +68,7 @@ namespace Racer.SaveSystem
         }
 #endif
         /// <summary>
-        /// See also: <seealso>
-        ///     <cref>OnApplicationFocus(bool)</cref>
-        /// </seealso>
+        /// Saves all values as soon as game is terminated.
         /// </summary>
         private void OnApplicationQuit()
         {

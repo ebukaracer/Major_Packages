@@ -57,4 +57,10 @@ class ScoreManager : MonoBehaviour
         // Reloads the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    // Add Scene A and B to Build Settings.
+    public void LoadScene(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
 }
