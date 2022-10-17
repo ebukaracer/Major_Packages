@@ -9,7 +9,7 @@
 - *Comes with a Demo Scene☕ for guide.*
 
 ## Installation:
-- Download [this package](), drag and drop the <b>.unitypackage</b> file inside Unity Editor to unpack(recommended) *or*
+- Download [this package](https://github.com/ebukaracer/Major_Packages/releases/download/ss.v1.0.0/Save.System.unitypackage), drag and drop the <b>.unitypackage</b> file inside Unity Editor to unpack(recommended) *or*
 - Clone this repo, drag and drop the **Save System** folder inside Unity Editor.
 
 ## Notes:
